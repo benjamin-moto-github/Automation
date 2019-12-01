@@ -23,6 +23,8 @@ public class HomePageTest extends BaseDriver{
   
   @Test
   public void SingleInputFieldTest() throws InterruptedException {
+	  
+	  //change
 	  System.out.println("SingleInputFieldTest");
 	  homePage.EnterMessage.sendKeys("Motorola solutions");
 	  homePage.MessageButton.click();
